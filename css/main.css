@@ -1,0 +1,62 @@
+/*
+BG: #0B0C10
+SB: #1F2833
+Gray: #C5C6C7
+Primary: #66FCF1
+Secondary: #45A29
+*/
+body {
+  font-family: 'Cairo';
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+a {
+  color: #66fcf1;
+}
+input {
+  background-color: #1f2833 !important;
+  color: #66fcf1 !important;
+}
+
+/* Header */
+.navbar {
+  background-color: #0b0c10;
+  color: #66fcf1 !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.btn-main {
+  background-color: #66fcf1 !important;
+  color: #0b0c10 !important;
+}
+
+/* Hero */
+.hero {
+  background-color: #1f2833;
+}
+.hero-post-badges {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.hero-post-badges > a {
+  background-color: #0b0c10;
+  display: block;
+  font-size: 0.8rem;
+}
+.hero-post-content {
+  position: absolute;
+  bottom: 20px;
+  color: #66fcf1;
+}
+.hero-post-content img {
+  border: 2px solid #66fcf1;
+}
