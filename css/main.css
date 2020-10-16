@@ -3,7 +3,7 @@ BG: #0B0C10
 SB: #1F2833
 Gray: #C5C6C7
 Primary: #66FCF1
-Secondary: #45A29
+Secondary: #45A298
 */
 body {
   font-family: 'Cairo';
@@ -14,14 +14,25 @@ h3,
 h4,
 h5 {
   font-weight: 700;
+  color: #66fcf1;
 }
-
+h3 {
+  font-size: 1.5rem;
+}
 a {
   color: #66fcf1;
 }
 input {
   background-color: #1f2833 !important;
   color: #66fcf1 !important;
+}
+
+img {
+  filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle {
+  filter: none;
+  border: 2px solid #66fcf1;
 }
 
 /* Header */
@@ -42,10 +53,13 @@ input {
 .hero {
   background-color: #1f2833;
 }
+.hero-post {
+  position: relative;
+}
 .hero-post-badges {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
 }
 .hero-post-badges > a {
   background-color: #0b0c10;
@@ -54,9 +68,64 @@ input {
 }
 .hero-post-content {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   color: #66fcf1;
 }
-.hero-post-content img {
-  border: 2px solid #66fcf1;
+
+/* Main blog */
+.blog-posts {
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+.blog-post {
+  background-color: #1f2833;
+}
+.blog-post img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+.blog-post p {
+  font-size: 0.9rem;
+}
+.blog-post .col-sm-8 {
+  border-left: 3px solid #66fcf1;
+}
+.badge {
+  margin-top: 0.5rem;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.badge > a {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  background-color: #66fcf170;
+  color: #0b0c10;
+}
+
+/* aside */
+.social-links {
+  background-color: #66fcf160;
+  color: #0b0c10;
+  font-size: 2rem;
+}
+.social-link:hover {
+  color: azure;
+}
+.secondary-color {
+  background-color: #1f2833;
+  color: #66fcf1;
+}
+
+.aside-heading {
+  border-left: 3px solid #66fcf1;
+}
+.author {
+  border-bottom: 1px dotted #66fcf150;
+}
+.author p {
+  font-size: 0.9rem;
+}
+.author-social-links a {
+  margin-left: 0.8rem;
 }
