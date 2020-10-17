@@ -1,2 +1,3 @@
 # bootstrap-blog-template
-Bootstrap sample Template
+
+Bootstrap template with Tron-style color palette
