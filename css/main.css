@@ -17,10 +17,14 @@ h5 {
   color: #ffe64d;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 a {
   color: #df740c;
+}
+a:hover {
+  text-decoration: none;
+  color: #e6ffff;
 }
 input {
   background-color: #1f2833 !important;
@@ -118,6 +122,10 @@ img.rounded-circle {
 .social-link:hover {
   color: azure;
 }
+.primary-color {
+  background-color: #000000;
+  color: #6fc3df;
+}
 .secondary-color {
   background-color: #1f2833;
   color: #6fc3df;
@@ -126,9 +134,7 @@ img.rounded-circle {
 .aside-heading {
   border-left: 3px solid #6fc3df;
 }
-.author {
-  border-bottom: 1px dotted #6fc3df50;
-}
+
 .author p {
   font-size: 0.9rem;
 }
@@ -139,5 +145,17 @@ img.rounded-circle {
 /* Footer section */
 .footer {
   background-color: #1f2833;
+  color: #e6ffff;
+}
+.footer input {
+  background-color: #0c141f !important;
+}
+.footer a {
+  color: #6fc3df;
+}
+
+/* detail page */
+.content {
+  background-color: #0c141f;
   color: #e6ffff;
 }
